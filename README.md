@@ -2,7 +2,7 @@
 
 Master's Internship — Artificial Intelligence (Cognitive Neuroscience)
 Student: Isis de Valk
-Host: Amsterdam UMC — Medical Psychology, OLVG Hospital - Psychiatry, and VU Amsterdam - Artifical Intelligence
+Host: Amsterdam UMC — Medical Psychology, OLVG Hospital - Psychiatry, and VU Amsterdam - Artificial Intelligence
 
 ## Overview
 
