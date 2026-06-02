@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mcPHASES is Restricted Access on PhysioNet (DUA required).
+# Do NOT commit any participant-level data files — raw or processed.
+data/raw/
+data/processed/
+data/*.csv
+data/**/*.csv
+
+# Analysis outputs (regenerable from the pipeline). Excluded in full
+# because many files contain per-participant rows under the mcPHASES DUA.
+# To selectively publish an aggregate output, add an explicit override
+# below, e.g.:
+#     !results/missingness/missingness_per_variable.csv
+results/
+
+# Backups created during cleanup
+_backup_before_cleanup_*.zip
