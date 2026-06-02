@@ -87,9 +87,10 @@ at-home Mira hormone tests, and daily surveys.
   ethics/CITI training, and (c) sign the dataset's Data Use Agreement
   (DUA). See the dataset page for current requirements.
 - **Dataset page:** <https://physionet.org/content/mcphases/1.0.0/>
-- **Dataset paper:** Symul, L. *et al.* (2026). A longitudinal dataset of
-  physiological, hormonal, metabolic, and self-reported menstrual health
-  data. *Scientific Data*.
+- **Dataset paper:** Lin, G., Li, J. Y., Kalani, K., Truong, K. N., &
+  Mariakakis, A. (2026). A longitudinal dataset of physiological,
+  hormonal, metabolic, and self-reported menstrual health data.
+  *Scientific Data*.
   <https://www.nature.com/articles/s41597-026-06805-3>
 - **Version used in this repository:** v1.0.0
 - **License & terms of use:** see the dataset page on PhysioNet.
@@ -105,8 +106,9 @@ If you use this code, please cite both the accompanying thesis
 (forthcoming) and the mcPHASES dataset:
 
 ```bibtex
-@dataset{symul2026mcphases,
-  author    = {Symul, Laura and others},
+@dataset{lin2026mcphases,
+  author    = {Lin, Georgianna and Li, Jin Yi and Kalani, Kaavya and
+               Truong, Khai N. and Mariakakis, Alex},
   title     = {{mcPHASES: A Dataset of Physiological, Hormonal, and
                Self-reported Events and Symptoms for Menstrual Health
                Tracking with Wearables}},
@@ -114,5 +116,15 @@ If you use this code, please cite both the accompanying thesis
   version   = {1.0.0},
   publisher = {PhysioNet},
   url       = {https://physionet.org/content/mcphases/1.0.0/}
+}
+
+@article{lin2026mcphasespaper,
+  author  = {Lin, Georgianna and Li, Jin Yi and Kalani, Kaavya and
+             Truong, Khai N. and Mariakakis, Alex},
+  title   = {A longitudinal dataset of physiological, hormonal,
+             metabolic, and self-reported menstrual health data},
+  journal = {Scientific Data},
+  year    = {2026},
+  url     = {https://www.nature.com/articles/s41597-026-06805-3}
 }
 ```
